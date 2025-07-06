@@ -1,0 +1,90 @@
+🧠 1. Funcionalidades possíveis para uma Agenda Eletrônica
+Aqui está uma lista dividida por níveis de complexidade:
+
+🔹 Funcionalidades básicas (mínimo viável – MVP)
+    Cadastro de usuário
+
+    Login e autenticação
+
+    Criar compromisso
+
+    Editar compromisso
+
+    Deletar compromisso
+
+    Listar compromissos por usuário
+
+    Filtrar por data / status
+
+    Visualizar detalhes de um compromisso
+
+🔸 Funcionalidades intermediárias
+    Adicionar lembretes com hora e método (notificação, e-mail, etc.)
+
+    Gerenciar etiquetas (tags)
+
+    Adicionar participantes a compromissos
+
+    Filtros por etiquetas, tipo ou participante
+
+    Marcar compromisso como concluído, adiado, etc.
+
+🧱 2. Etapas para realizar o projeto (Roadmap)
+Dividi por fases práticas para facilitar o desenvolvimento em partes.
+
+🧾 Fase 1 – Planejamento e Modelagem
+    Definir escopo (MVP primeiro)
+
+    Listar entidades: Usuário, Compromisso, etc.
+
+    Modelar o banco com schemas MongoDB/Mongoose
+
+    Esboçar rotas da API (REST)
+
+⚙️ Fase 2 – Back-End (Node.js + Mongoose)
+    Criar estrutura básica do projeto (express, mongoose, dotenv, etc.)
+
+    Conectar com MongoDB (local ou Atlas)
+
+    Criar modelos: Usuario, Compromisso
+
+    Implementar autenticação (JWT ou sessions)
+
+    Criar rotas:
+
+    POST /usuarios
+
+    POST /login
+
+    GET/POST/PUT/DELETE /compromissos
+
+    Proteger rotas com autenticação
+
+💻 Fase 3 – Front-End (opcional, se quiser)
+Pode ser com:
+
+    HTML + JS básico
+
+    React.js
+
+    Outra SPA
+
+    Exibir, cadastrar e editar compromissos
+
+    Autenticação no front com JWT
+
+🧪 Fase 4 – Testes e Validações
+    Testar todas as rotas com Postman ou Insomnia
+
+    Validar entrada de dados (ex: Joi ou express-validator)
+
+    Tratar erros (ex: usuário não encontrado, campos vazios, etc.)
+
+🚀 Fase 5 – Extras e Deploy
+    Melhorias (etiquetas, lembretes, etc.)
+
+    Deploy do back-end (ex: Render, Railway, Vercel, etc.)
+
+    Deploy do banco (MongoDB Atlas)
+
+    Documentar API (Postman Docs ou Swagger)
